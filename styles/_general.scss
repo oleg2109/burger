@@ -1,0 +1,13 @@
+@import './generalHead';
+@import './generalBanner';
+@import './generalMenu.scss';
+.WRAPPER {
+    width: 360px;
+    overflow: hidden;
+}
+.IMGTOP {
+    position: absolute;
+    min-height: 90px;
+    right: 0;
+    top: 0;
+}

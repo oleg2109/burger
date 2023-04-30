@@ -1,0 +1,46 @@
+.BANNER {
+
+    
+    margin-top: 38px;
+}
+
+.IMGGALLERY {
+    width: 325px;
+    height: 150px;
+    border-radius: 7px;
+    position: relative;
+    margin: auto;
+}
+
+.IMG1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.ACTIVE {
+    opacity: 1;
+    transition: 1s;
+}
+
+.DOTES{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.DOT{
+    width: 9px;
+    height: 9px;
+    background: #E2E2E2;
+    border-radius: 50%;
+    margin: 0 2px 0 2px ;
+
+}
+
+.DOTRED {
+    background: red;
+}

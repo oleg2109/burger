@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'LATO';
+    src: url('./Lato-Medium.woff') format('woff'),
+      url('./Lato-Medium.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avenir';
+    src: url('./assets/fonts/AvenirLT-Book.eot');
+    src: url('./assets/fonts/AvenirLT-Book.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/AvenirLT-Book.woff') format('woff'),
+    url('./assets/fonts/AvenirLT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }

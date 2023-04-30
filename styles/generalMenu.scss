@@ -1,0 +1,124 @@
+.MAIN_MENU {
+    width: 325px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+.MENU_LIST_WRAPPER {
+    display: flex;
+    align-items: center;
+    margin: 0 -6px;
+}
+
+.MENULIST {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    margin: 0 6px 0 6px;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+.RATING {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+}
+
+.RATING img {
+    margin-right: 4px;
+}
+
+.IMG_MENU_WRAPPER {
+    margin: 0 16px 0 0px;
+}
+
+.CAPTION {
+    font-size: 18px;
+    margin: 0 16px 0 0;
+}
+
+.MENU_ITEM_LIST {
+    display: flex;
+    align-items: center;
+    margin: 17px -8px 0 -8px;
+
+}
+
+.MENU_ITEM {
+    min-width: 142px;
+    height: 200px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin: 0 8px 5px 8px;
+    padding: 8px;
+}
+
+
+.MENU_ITEM_IMG_WRAP {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.MENU_ITEM_CAPTION {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.MENU_ITEM_DESCRIPTION {
+    opacity: 0.5;
+    font-size: 12px;
+    margin-top: 5px;
+    max-height: 28px;
+}
+
+.MENU_ITEM_FOOTER {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.MENU_ITEM_PRICE {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #FF0000;
+
+}
+
+.PENNIES {
+    font-size: 10px;
+}
+
+.MENU_ITEM_BTN {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MENU_ITEM_BTN_LINE1,
+.MENU_ITEM_BTN_LINE2 {
+    width: 12px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+
+.MENU_ITEM_BTN_LINE2 {
+    transform: rotate(90deg);
+}
+
+.ACTIVE_MENU {
+    background: red;
+    color: white;
+}
